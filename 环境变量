@@ -1,0 +1,21 @@
+- 开机自动读取 /etc/profile
+- .bash_profile 用户环境变量
+- 修改环境便利 修改 .bashrc文件
+- source + 变量名  读取环境变量
+  常用环境变量
+      PATH UID MAIL HOME SHELL HISTSIZE USER TERM HOSTNAME LOGNAME PWD
+  - PATH=$PATH:<path1>;<path2>
+- export PATH = $PATH:/home  临时修改  关闭后消失
+- 修改 .profile或.bashrc
+- 修改/etc/profile    
+- env  显示所有环境变量
+- set  显示所哟本地定义的shell变量
+
+- unset  清除 环境变量  
+- unset -f  仅删除函数
+         -v仅删除变量
+ 可以设置环境变量为只读 
+ eg:
+    export TEMP="TEST"
+    readonly TEMP
+  
