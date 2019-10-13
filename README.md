@@ -24,3 +24,6 @@ stderr     标准错误  2
 # 环境变量
 - 开机自动读取 /etc/profile
 - .bash_profile 用户环境变量
+- 修改环境便利 修改 .bashrc文件
+- source + 变量名  读取环境变量<br>
+  常用
