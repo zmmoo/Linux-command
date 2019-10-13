@@ -15,3 +15,9 @@ Linux基础命令学习
 - pwd 查看当前目录
 - whoami 查看当前用户
 - [控制台指令](https://github.com/zmmoo/Linux-command/blob/master/%E6%8E%A7%E5%88%B6%E5%8F%B0%E5%91%BD%E4%BB%A4)
+- .bash_history 存储历史命令 (history)
+- 重定向：stdin  标准输入 0
+stdout  标准输出 1     命令 >文件（覆盖）    命令>>文件（追加）
+stderr     标准错误  2
+- 命令>>文件1 2>>文件2（将文件传送到文件1，错误信息传到文件2）
+命令&>>文件  是否成功都输出到文件中   命令 >>文件 2>&1错误信息也输出到文件中
