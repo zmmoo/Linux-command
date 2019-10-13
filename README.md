@@ -14,3 +14,4 @@ Linux基础命令学习
 - cd [路径名]  切换目录
 - pwd 查看当前目录
 - whomai 查看当前用户
+- [控制台指令](https://github.com/zmmoo/Linux-command/blob/master/%E6%8E%A7%E5%88%B6%E5%8F%B0%E5%91%BD%E4%BB%A4)
