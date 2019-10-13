@@ -21,9 +21,5 @@ stdout  标准输出 1     命令 >文件（覆盖）    命令>>文件（追加
 stderr     标准错误  2
 - 命令>>文件1 2>>文件2（将文件传送到文件1，错误信息传到文件2）
 命令&>>文件  是否成功都输出到文件中   命令 >>文件 2>&1错误信息也输出到文件中
-# 环境变量
-- 开机自动读取 /etc/profile
-- .bash_profile 用户环境变量
-- 修改环境便利 修改 .bashrc文件
-- source + 变量名  读取环境变量<br>
-  常用
+# [环境变量](https://github.com/zmmoo/Linux-command/blob/master/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F)
+
