@@ -11,7 +11,7 @@ Linux基础命令学习
 - /dev:设备文件及设备驱动程序，用来访问外部设备。
 # 基础命令
 - [ls](https://github.com/zmmoo/Linux-command/blob/master/ls)
-- cd [路径名]  切换目录
+- cd [路径名]  切换目录  .. 上一级目录  ~ home目录 . 当前目录 -上一工作目录
 - pwd 查看当前目录
 - whoami 查看当前用户
 - [控制台指令](https://github.com/zmmoo/Linux-command/blob/master/%E6%8E%A7%E5%88%B6%E5%8F%B0%E5%91%BD%E4%BB%A4)
