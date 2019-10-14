@@ -14,6 +14,11 @@ Linux基础命令学习
 - [mkdir\mv\rm\touch\cp](https://github.com/zmmoo/Linux-command/blob/master/mkdir%5Ccp%5Cmv%5Crm)
 - file 识别文件类型，也可以辨识文件的编码格式
 - [ln\find\grep](https://github.com/zmmoo/Linux-command/blob/master/ln%5Cfind%5Cgrep)
+- whereis filenaem  定位/返回指定名字的二进制文件、源文件和帮助文件路径
+- which 找Linux命令文件并显示所在位置
+- locate 查找符合样本条件的文档或目录
+- cat 显示出文件的全部内容
+- more\less: 可翻页显示
 - cd [路径名]  切换目录  .. 上一级目录  ~ home目录 . 当前目录 -上一工作目录
 - pwd 查看当前目录
 - whoami 查看当前用户
@@ -25,4 +30,4 @@ stderr     标准错误  2
 - 命令>>文件1 2>>文件2（将文件传送到文件1，错误信息传到文件2）
 命令&>>文件  是否成功都输出到文件中   命令 >>文件 2>&1错误信息也输出到文件中
 # [环境变量](https://github.com/zmmoo/Linux-command/blob/master/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F)
-
+# [用户与权限管理]
