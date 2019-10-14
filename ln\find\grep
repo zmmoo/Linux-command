@@ -1,0 +1,34 @@
+ln 为文件或目录建立链接
+    -ln 目标文件  链接文件名
+    -ln 一般是硬链接 -s创建软连接。删除源文件后硬链接可以使用，软链接不能使用
+    -目录只能创建软链接
+    -硬链接：以文本副本的形式存在，但不占用实际空间，不能再不同的文件系统之间做硬链接
+    -软链接：软链接以路径的形式存在， 可以跨文件系统
+  
+ 
+ find:查找
+ - 查找文件 find ./ -type f
+ - 查找目录 find ./ -type d 
+ - 查找名字为 test的文件或目录 find ./ -name test
+ - 查找文件名匹配*cache文件  find ./ -name *cache
+ - 按文件更新时距现在时刻n天以内的文件 find ./ -mtime -n (+n：n天以上的文件)
+ - 查找空文件或目录 find ./ -empty
+ - 查找空文件并删除 find ./ -empty -type f -print -delete
+ - 按权限查找 find ./ -perm 664    find ./ -perm -u=r（文件所有者有读权限）
+ - 按所有者查找  find ./ -user root
+ - 查找文件用户ID不存在的文件 find ./ nouser  find ./ -nogroup（组ID不存在的文件）
+ - 按大小查找文件  find ./ -size 10c(文件等于10个字节的文件或目录)  find ./ -size +10c（文件大于10个字节的文件）
+ 
+ 
+grep :查找  可以使用正则表达式
+eg:
+    查找ls.txt中的author  grep -n(显示行数) author ls.txt
+    查找ls.txt中以ls开头的行  grep -n ^ls ls.txt
+    查找ls.txt中以file结束的行  grep -n file$ ls.txt
+    查找ls.txt中以dir开始的单词  grep -n \dir ls.txt
+    查找ls.txt中 与 ‘gr..p’匹配的 grep -n 'gr..p' ls.txt
+    查找3到5个‘o’的字符：grep -m 'o\{3,5\}' ls.txt
+    ls -l |grep ^d  查找目录
+    查看进程个数  ps -ef|grep sshd -c
+    源码搜索  grep ./ include/ -rn memcpy|less
+    
