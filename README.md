@@ -22,12 +22,15 @@ Linux基础命令学习
 - cd [路径名]  切换目录  .. 上一级目录  ~ home目录 . 当前目录 -上一工作目录
 - pwd 查看当前目录
 - whoami 查看当前用户
+- [diff\patch](https://github.com/zmmoo/Linux-command/blob/master/diff%5Cpatch)  
 - [控制台指令](https://github.com/zmmoo/Linux-command/blob/master/%E6%8E%A7%E5%88%B6%E5%8F%B0%E5%91%BD%E4%BB%A4)
 - .bash_history 存储历史命令 (history)
+- dmesg 查看linux启动文件
 - 重定向：stdin  标准输入 0
 stdout  标准输出 1     命令 >文件（覆盖）    命令>>文件（追加）
 stderr     标准错误  2
 - 命令>>文件1 2>>文件2（将文件传送到文件1，错误信息传到文件2）
 命令&>>文件  是否成功都输出到文件中   命令 >>文件 2>&1错误信息也输出到文件中
 # [环境变量](https://github.com/zmmoo/Linux-command/blob/master/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F)
-# [用户与权限管理]
+# [用户与权限管理]（https://github.com/zmmoo/Linux-command/blob/master/%E5%BD%92%E6%A1%A3%E5%92%8C%E5%8E%8B%E7%BC%A9）
+# [归档和压缩](https://github.com/zmmoo/Linux-command/blob/master/%E5%BD%92%E6%A1%A3%E5%92%8C%E5%8E%8B%E7%BC%A9)
