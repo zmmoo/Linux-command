@@ -1,0 +1,8 @@
+diff 比较文件的差异
+diff 选项 file1 file2
+
+patch 让用户利用设置的修补文件的方式 修改 更新原始文件
+eg：
+    diff -ruN stdio.h stdio_bak.h>stdio.patch
+    cat stdio.patch
+    patch -p0 stdio.h stdio.patch
