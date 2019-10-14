@@ -1,0 +1,24 @@
+.Z  compress程序压缩文件
+*.gz gzip程序压缩的文件
+*.bz2  bzip2程序压缩文件
+*.tar tar程序打包的数据
+*.tar.gz  tar打包 gzip压缩的文件
+*.tar.bz2 tar打包  bzip2压缩的文件
+
+gzip [option]  filename
+  gzip -9 filename 创建高压缩比压缩包
+  gzip -d filename 解压缩
+bzip [option] filename
+  bzip2 -9 创建高压缩比压缩包
+  bzip2 -d 解压缩
+  
+  tar [option]  归档文件名  源文件或目录
+        -c:创建.tar格式的包文件
+        -x：解开包wenjian
+        -v：输出详细信息
+        -f:表示使用归档文件
+        -p：打包时保存原始文件及目录的权限
+        -t:列表超看包内的文件
+        -C：解包时指定释放目标文件夹
+        -z：调用gzip进行解压或压缩
+        -j：调用bzip2进行压缩和解压
