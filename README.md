@@ -26,6 +26,16 @@ Linux基础命令学习
 - [控制台指令](https://github.com/zmmoo/Linux-command/blob/master/%E6%8E%A7%E5%88%B6%E5%8F%B0%E5%91%BD%E4%BB%A4)
 - .bash_history 存储历史命令 (history)
 - dmesg 查看linux启动文件
+- fdisk -l 显示所有磁盘分区  /etc/fstab (系统已经加载的文件系统)
+- df -h 列出挂载点
+- du 磁盘使用量
+- mkfs 常见文件系统类型   mkfs -t filetype device   其中filetype为ext2 ext3 vfat
+- mount  挂载设备   mount 存储设备  挂载点目录
+- umount 卸载已挂载的文件系统  umount 存储设备位置/挂载点目录
+- ps -u  查看当前所用进程  
+- top   查看动态进程排名信息 
+- wc :输出文件的行数、字数、字节数
+- xargs 将前一个结果作为下一个的输入  eg: find / -name *.conf -type f -print|xargs tar cjf test.tar.gz
 - 重定向：stdin  标准输入 0
 stdout  标准输出 1     命令 >文件（覆盖）    命令>>文件（追加）
 stderr     标准错误  2
