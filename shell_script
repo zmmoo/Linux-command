@@ -47,4 +47,45 @@ test　运算符
  －ｘ　　可执行
  －ｓ　长度不为０
 
-
+-  条件语句:
+   if ...then ...fi
+   if 表达式
+            then ...
+   fi
+   
+   if ...then..else...fi
+   
+   if.... elif...fi
+   
+   
+   case $1  in
+      file1 | file3 | file4)
+         echo "   "
+            ;;
+      file2)
+         echo "  "
+            ;;
+      *)
+         echo "  "
+   esac
+   
+   if [ $s -lt 0 -o $s -gt 100]  #小于０或者大于１００
+  
+  
+  for循环： 
+   for  var in list
+      do 
+            .....
+      done
+     
+ while ...(true)
+   do 
+      ...
+   done
+   
+   break continue
+ 函数  
+   function_name   arg1 arg2 ....
+   echo $?
+ value_name='function_name arg1 arg2 ....'
+ 
