@@ -43,6 +43,7 @@ stderr     标准错误  2
 命令&>>文件  是否成功都输出到文件中   命令 >>文件 2>&1错误信息也输出到文件中
 - vim: %s/datatype/data_type/g　替换所有的datatype 为data_type
 - vim: 命令模式下gg=GG 自动排版
+- dpkg -s <package>
 # [环境变量](https://github.com/zmmoo/Linux-command/blob/master/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F)
 # [用户与权限管理](https://github.com/zmmoo/Linux-command/blob/master/%E5%BD%92%E6%A1%A3%E5%92%8C%E5%8E%8B%E7%BC%A9)
 # [归档和压缩](https://github.com/zmmoo/Linux-command/blob/master/%E5%BD%92%E6%A1%A3%E5%92%8C%E5%8E%8B%E7%BC%A9)
